@@ -6,7 +6,7 @@
     "rating": 9.2,
     "batStyle": "Right-hand bat",
     "bowlingStyle": "Right-arm offbreak",
-    "playerPrice": 1350000,
+    "playerPrice": 13500,
     "playerImg": "https://i.ibb.co.com/jkqm843x/Joo-Root.webp"
   },
   {
@@ -16,7 +16,7 @@
     "rating": 9.1,
     "batStyle": "Right-hand bat",
     "bowlingStyle": "Right-arm offbreak",
-    "playerPrice": 1300000,
+    "playerPrice": 13000,
     "playerImg": "https://i.ibb.co.com/fYh6yqsj/Kane.avif"
   },
   {
@@ -26,7 +26,7 @@
     "rating": 9.4,
     "batStyle": "Left-hand bat",
     "bowlingStyle": "Left-arm orthodox",
-    "playerPrice": 1450000,
+    "playerPrice": 14500,
     "playerImg": "https://i.ibb.co.com/zTKFZ4sr/Shakib-Al-Hasan.jpg"
   },
   {
@@ -36,7 +36,7 @@
     "rating": 9.0,
     "batStyle": "Left-hand bat",
     "bowlingStyle": "Right-arm fast-medium",
-    "playerPrice": 1380000,
+    "playerPrice": 13800,
     "playerImg": "https://i.ibb.co.com/tPNTqNcQ/ben-stokes.jpg"
   },
   {
@@ -46,7 +46,7 @@
     "rating": 9.3,
     "batStyle": "Right-hand bat",
     "bowlingStyle": "Right-arm legbreak",
-    "playerPrice": 1420000,
+    "playerPrice": 14200,
     "playerImg": "https://i.ibb.co.com/DDKP2g4s/steven-smith-australia.webp"
   },
   {
@@ -56,7 +56,7 @@
     "rating": 9.0,
     "batStyle": "Left-hand bat",
     "bowlingStyle": "Right-arm legbreak",
-    "playerPrice": 1360000,
+    "playerPrice": 13600,
     "playerImg": "https://i.ibb.co.com/fG2zpX9j/David-Warner.webp"
   },
   {
@@ -66,7 +66,7 @@
     "rating": 9.1,
     "batStyle": "Right-hand bat",
     "bowlingStyle": "None",
-    "playerPrice": 1370000,
+    "playerPrice": 13700,
     "playerImg": "https://i.ibb.co.com/TxdKhwY2/jos-buttler.webp"
   }
 ]
