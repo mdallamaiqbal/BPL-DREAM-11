@@ -1,5 +1,6 @@
 import React, { useState } from 'react';
 import { FaFlag, FaUser } from 'react-icons/fa';
+import { toast } from 'react-toastify';
 const Card = ({player , setCoin,coin,selectedPlayers,setSelectedPlayers}) => {
     const [isSelect,setIsSelect]=useState(false);
     const handleChoosePlayer=()=>{
@@ -8,10 +9,11 @@ const Card = ({player , setCoin,coin,selectedPlayers,setSelectedPlayers}) => {
     if(newCoin>=0){
         setCoin(coin - player.playerPrice)
     }else{
-        alert('Not enough coin');
+        toast.warn('Not enough coin');
         return
     }
-    alert(`${player.playerName} is Selected`)
+   
+    toast.success(`${player.playerName} is Selected`)
     setIsSelect(true);
     setSelectedPlayers([...selectedPlayers, player])
 }
@@ -35,7 +37,7 @@ const Card = ({player , setCoin,coin,selectedPlayers,setSelectedPlayers}) => {
                         <h3 className='font-bold'>Rating ({player.rating})</h3>
                         <div className='flex justify-between gap-5 font-bold'>
                             <p>{player.batStyle}</p>
-                            <p className='text-right'>{player.bowlingStyle}</p>
+                            <p className='text-right'>{player.bowlingStyle !== 'None' ? player.bowlingStyle : 'Not a Bowler'}</p>
                         </div>
             
                         <div className="card-actions justify-between items-center">

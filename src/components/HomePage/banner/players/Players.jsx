@@ -8,7 +8,7 @@ const Players = ({playersPromise,setCoin,coin}) => {
     const [selectedPlayers, setSelectedPlayers]=useState([])
     return (
         <div className='container mx-auto my-16'>
-          <div className='flex justify-between items-center gap-4 mb-5'>
+          <div className='flex flex-col sm:flex-row justify-between items-center gap-4 mb-5'>
           {toggol === 'available' ? <h2 className='font-bold text-3xl'>Available Players</h2> :
            <h2 className='font-bold text-3xl'>Selected Players ({selectedPlayers.length}/{players.length})</h2>
           }
@@ -18,7 +18,7 @@ const Players = ({playersPromise,setCoin,coin}) => {
             </div>
           </div>
             {toggol === 'available' ? <AvailablePlayers players={players} setCoin={setCoin} coin={coin} setSelectedPlayers={setSelectedPlayers} selectedPlayers={selectedPlayers}/>
-             : <SelectedPlayers selectedPlayers={selectedPlayers} />  
+             : <SelectedPlayers selectedPlayers={selectedPlayers} setSelectedPlayers={setSelectedPlayers} setCoin={setCoin} coin={coin}/>  
           }
         </div>
     );
